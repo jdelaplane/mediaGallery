@@ -1,0 +1,129 @@
+* {
+    box-sizing: border-box
+}
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300);
+
+body {
+  background-image: url(photos/background.jpg);
+  font-family: 'Ranga', cursive;
+  margin-top:250px;
+  margin-left: 100px;
+}
+
+
+
+h1 {
+  Color: white;
+  font-size: 70px;
+  text-align: center;
+}
+
+h1:hover {
+    color: #efe869;
+}
+
+
+.main_container {
+  border: 5px solid white;
+  border-radius: 5px;
+  border-bottom: margin
+  margin-top: 50px;
+  width: 90%;
+  padding-left: 100px;
+}
+
+
+
+
+.input {
+  text-align: center;
+}
+
+.container {
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap:wrap;
+
+    }
+
+    .books  :hover {
+     border-color: #efe869;
+  }
+
+.cell img {
+
+   border:5px solid white;
+   height:350px;
+   padding:15px;
+   width:230px;
+
+
+}
+
+.cell {
+  padding: 10px;
+  text-align: center;
+}
+
+.books {
+  padding-left: 120px;
+}
+
+img.grayscale {
+    filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); /* Firefox 3.5+, IE10 */
+    filter: gray; /* IE6-9 */
+    -webkit-filter: grayscale(100%); /* Chrome 19+ & Safari 6+ */
+    -webkit-transition: all .6s ease; /* Fade to color for Chrome and Safari */
+    -webkit-backface-visibility: hidden; /* Fix for transition flickering */
+}
+
+img.grayscale:hover {
+    filter: none;
+    -webkit-filter: grayscale(0%);
+}
+
+svg {
+    background:url(http://4.bp.blogspot.com/-IzPWLqY4gJ0/T01CPzNb1KI/AAAAAAAACgA/_8uyj68QhFE/s400/a2cf7051-5952-4b39-aca3-4481976cb242.jpg);
+}
+
+svg image {
+    transition: all .6s ease;
+}
+
+svg image:hover {
+    opacity: 0;
+}
+
+#search {
+
+  text-align: center;
+
+}
+
+#search input[type="text"] {
+    background: url(search-dark.png) no-repeat 10px 6px #444;
+    border: 0 none;
+    font: bold 22px 'Ranga',Helvetica,cursive;
+    color: white;
+    width: 350px;
+    padding: 10px 15px 6px 35px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    text-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 3px rgba(0, 0, 0, 0.2) inset;
+    -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 3px rgba(0, 0, 0, 0.2) inset;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 3px rgba(0, 0, 0, 0.2) inset;
+    -webkit-transition: all 0.7s ease 0s;
+    -moz-transition: all 0.7s ease 0s;
+    -o-transition: all 0.7s ease 0s;
+    transition: all 0.7s ease 0s;
+    }
+
+
+#search input[type="text"]:focus {
+    width: 500px;
+    text-align: center;
+    }
