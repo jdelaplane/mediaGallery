@@ -9,26 +9,26 @@ body {
   font-family: 'Ranga', cursive;
   margin-top:250px;
   margin-left: 100px;
+
 }
 
 
 
 h1 {
-  Color: white;
+  Color: #efe869;
   font-size: 70px;
   text-align: center;
 }
 
-h1:hover {
-    color: #efe869;
-}
+
+
 
 
 .main_container {
   border: 5px solid white;
   border-radius: 5px;
-  border-bottom: margin
   margin-top: 50px;
+  margin-bottom: 100px;
   width: 90%;
   padding-left: 100px;
 }
@@ -48,16 +48,15 @@ h1:hover {
 
     }
 
-    .books  :hover {
-     border-color: #efe869;
-  }
+
 
 .cell img {
 
-   border:5px solid white;
+   border:5px solid #efe869;
    height:350px;
    padding:15px;
    width:230px;
+   clear: both;
 
 
 }
@@ -65,6 +64,7 @@ h1:hover {
 .cell {
   padding: 10px;
   text-align: center;
+
 }
 
 .books {
@@ -127,3 +127,24 @@ svg image:hover {
     width: 500px;
     text-align: center;
     }
+
+.Gilgamesh img {
+  height: 550px;
+  position: relative;
+  right: 250px;
+  width:430px;
+  margin-top: 30px;
+  margin-bottom: 50px;
+
+
+
+}
+
+article {
+
+  width: 30%;
+  float: right;
+  position: relative;
+  right: 200px;
+
+}
